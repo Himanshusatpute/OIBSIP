@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel-</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  .navbar ul li {
+    padding: 0 1em;
+  }
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .navbar ul li a:hover {
+    color: #e74c3c;
+  }
+  .register-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .register-btn:hover {
+    background-color: #c0392b;
+  }
+  .hero {
+    background-image: url('https://www.holidify.com/images/bgImages/MANALI.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3em;
+  }
+  .hero p {
+    font-size: 1.5em;
+  }
+  .hero button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .hero button:hover {
+    background-color: #c0392b;
+  }
+</style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="brand">Travel-X</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Hill stations</a></li>
+      <li><a href="#">Best offers</a></li>
+      <li><a href="#">Our Sites</a></li>
+      <li><a href="#" class="register-btn">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Explore the world with us</h1>
+    <p>Find your next adventure</p>
+    <button>Explore Now</button>
+  </div>
+</section>
+
+</body>
+</html>
