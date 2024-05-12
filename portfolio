@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Himanshu Satpute's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #f1edea;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/D4D03AQFoTmunzvyJxQ/profile-displayphoto-shrink_200_200/0/1691337146773?e=2147483647&v=beta&t=SH8BtARM4GdxLr734sGgqFWiqZCFqJQ3thmi0SeIWC4" alt="My Image">
+        <h1>Contact Information</h1>
+        <p><strong>Name:</strong> Himanshu Satpute</p>
+        <p><strong>Address:</strong> Katol, Nagpur, Maharashtra</p>
+        <p><strong>Phone:</strong> 9356349982</p>
+        <p><strong>Email:</strong> himanshusatpute04@gmail.com</p>
+
+        <h1>Objective</h1>
+        <p>Enthusiastic computer science and design student at YCCE with knowledge of Java, Python, HTML, and CSS. Eager to apply my skills and hands-on experience in these languages, gained through coursework and daily practice in a challenging IT role at an innovative company. Excited to contribute my skills in programming and system maintenance to enhance team success and innovation in a dynamic IT environment.</p>
+
+        <h1>Experience</h1>
+        <ul>
+            <li>Member of working committee, YCCE MEDIA</li>
+           
+        </ul>
+
+        <h1>Education</h1>
+        <p>Yeshwantrao Chavan College of Engineering (YCCE), Nagpur</p>
+        <p>B.Tech in Computer Science and Design</p>
+
+        <h1>Skills</h1>
+        <ul>
+            <li><strong>Leadership and communication:</strong> Effective communication and listening skills, honed through group projects and presentations</li>
+            <li><strong>Adaptability:</strong> Adaptable to changing work environments</li>
+            <li><strong>Time Management:</strong> Demonstrated by consistently meeting project deadlines while balancing coursework and extracurricular activities</li>
+        </ul>
+
+        <h1>Achievements</h1>
+        <ul>
+            <li>Google Analytics certification</li>
+            <li>1st Prize in WORDCRAFT Literature-based Competition held by IETE YCCE</li>
+        </ul>
+
+        <h1>Interests</h1>
+        <ul>
+            <li>Reading books on technology and self-development</li>
+            <li>Exploring new technologies and tools in IT field</li>
+        </ul>
+
+        <h1>Declaration</h1>
+        <p>I hereby declare that all the information provided in this resume is true and complete to the best of my knowledge. I bear the responsibility of any errors or discrepancies found in the data in the future.</p>
+    </div>
+</body>
+</html>
