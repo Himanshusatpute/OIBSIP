@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/04/demon-slayer-rengoku-flame-gif-desktop-wallpaper-cover.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+        }
+        .container {
+            background-color: #fff;
+            width: 50%;
+            margin: 0 auto; 
+            padding-bottom: 8%; 
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        
+        h1 {0
+            color: #333;
+        }
+
+        .input-section {
+            margin-bottom: 20px;
+        }
+
+        input, select, button {
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: orange;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff7f00;
+        }
+
+        .output-section {
+            color: red;
+            font-size: 24px;
+        }
+
+        .thermometer {
+            margin-top: 20px;
+            float: right; 
+        }
+
+        .additional-image {
+            margin-top: 20px;
+            float: left; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-section">
+            <input type="text" id="temperatureInput" placeholder="Enter temperature">
+            <select id="unitSelect">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <button onclick="convertTemperature()">Convert</button>
+        </div>
+        <div class="output-section">
+            <p id="convertedTemperature"></p>
+        </div>
+    </div>
+
+    <script>
+        function convertTemperature() {
+            let inputTemperature = document.getElementById('temperatureInput').value;
+            let selectedUnit = document.getElementById('unitSelect').value;
+            let convertedTemperature;
+
+            if (selectedUnit === 'celsius') {
+                convertedTemperature = (parseFloat(inputTemperature) * 9/5) + 32;
+                document.getElementById('convertedTemperature').innerText = `${convertedTemperature} °F`;
+            } else if (selectedUnit === 'fahrenheit') {
+                convertedTemperature = (parseFloat(inputTemperature) - 32) * 5/9;
+                document.getElementById('convertedTemperature').innerText = `${convertedTemperature} °C`;
+            } else if (selectedUnit === 'kelvin') {
+                convertedTemperature = parseFloat(inputTemperature) + 273.15;
+                document.getElementById('convertedTemperature').innerText = `${convertedTemperature} K`;
+            }
+        }
+    </script>
+</body>
+</html>
